@@ -14,6 +14,7 @@ Systems Integration: Deployed a central server to handle DNS resolution (hq.loca
 
 Network Troubleshooting: Verified connectivity using ICMP (ping) and ARP processes to ensure successful packet delivery across the WAN.
 
+
 🏗️ Network Topology
 
 <img width="1911" height="705" alt="Screenshot 2026-05-25 081404" src="https://github.com/user-attachments/assets/c7e47b2d-221f-491f-beb6-950c9f7e5877" />
