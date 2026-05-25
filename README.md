@@ -24,13 +24,13 @@ The network utilizes a daisy-chain WAN topology (HQ ➔ Branch A ➔ Branch B) r
 
 📊 IP Addressing & VLSM Scheme
 The entire infrastructure is built using the 192.168.50.0/24 network block.
-Subnet Name,Network Address,CIDR,Subnet Mask,Usable Host Range,Broadcast Address
-HQ LAN (60 Hosts),192.168.50.0,/26,255.255.255.192,.1 - .62,.63
-Branch A LAN (28 Hosts),192.168.50.64,/27,255.255.255.224,.65 - .94,.95
-Branch B LAN (14 Hosts),192.168.50.96,/28,255.255.255.240,.97 - .110,.111
-HQ to BR-A WAN (2 Hosts),192.168.50.112,/30,255.255.255.252,.113 - .114,.115
-BR-A to BR-B WAN (2 Hosts),192.168.50.116,/30,255.255.255.252,.117 - .118,.119
-
+| Subnet Name | Network Address | CIDR | Subnet Mask | Usable Host Range | Broadcast Address |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **HQ LAN** (60 Hosts) | `192.168.50.0` | `/26` | `255.255.255.192` | `.1` - `.62` | `.63` |
+| **Branch A LAN** (28 Hosts) | `192.168.50.64` | `/27` | `255.255.255.224` | `.65` - `.94` | `.95` |
+| **Branch B LAN** (14 Hosts) | `192.168.50.96` | `/28` | `255.255.255.240` | `.97` - `.110` | `.111` |
+| **HQ to BR-A WAN** (2 Hosts) | `192.168.50.112` | `/30` | `255.255.255.252` | `.113` - `.114` | `.115` |
+| **BR-A to BR-B WAN** (2 Hosts)| `192.168.50.116` | `/30` | `255.255.255.252` | `.117` - `.118` | `.119` |
 Repository Contents
 Multi-Site-Enterprise.pkt: The fully configured Cisco Packet Tracer project file.
 
