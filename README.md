@@ -14,7 +14,8 @@ Systems Integration: Deployed a central server to handle DNS resolution (hq.loca
 Network Troubleshooting: Verified connectivity using ICMP (ping) and ARP processes to ensure successful packet delivery across the WAN.
 
 🏗️ Network Topology
-Insert your color-coded logical topology screenshot here (e.g., ![Network Topology](link-to-image.png))
+<img width="1911" height="705" alt="Screenshot 2026-05-25 081404" src="https://github.com/user-attachments/assets/c7e47b2d-221f-491f-beb6-950c9f7e5877" />
+
 
 The network utilizes a daisy-chain WAN topology (HQ ➔ Branch A ➔ Branch B) requiring careful static route configuration for the "middleman" router (Branch A) to ensure packets reach their correct destinations on either side of the network.
 
