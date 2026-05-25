@@ -1,4 +1,5 @@
 Multi-Site Enterprise Network Infrastructure
+
 📌 Project Overview
 This project demonstrates the design and configuration of a multi-site enterprise network using Cisco Packet Tracer. The objective was to build a fully functional, routed infrastructure from a single Class C IP block, connecting a Headquarters (HQ) and two remote branch offices (Branch A and Branch B) while providing centralized web and DNS services.
 
